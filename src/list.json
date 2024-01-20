@@ -1,0 +1,14 @@
+[
+  {
+    "task": [
+      {
+        "text": "Привет",
+        "continue": false
+      },
+      {
+        "text": "Хало",
+        "continue": false
+      }
+    ]
+  }
+]

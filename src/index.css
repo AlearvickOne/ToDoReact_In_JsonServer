@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+* {
+  transition: all 0.2s;
+  box-sizing: border-box;
+  border-radius: 1vh;
+  font-family: "Comfortaa";
+  word-wrap: break-word;
+}
+body {
+  background: #acd8da;
+}
+
+ul,
+form,
+input {
+  padding: 0;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.container {
+  margin: auto;
+  padding: 0;
+  max-width: 40rem;
+}
+
+.list {
+  background: #e5e7cd;
+  padding: 1vh;
+  border: 1px solid black;
+}

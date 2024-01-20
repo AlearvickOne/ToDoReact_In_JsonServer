@@ -1,0 +1,45 @@
+.listEl {
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+  padding: 3vh;
+  background: #f5deb3;
+  border: 1px solid #000000;
+
+  font-size: 18px;
+  margin-bottom: 1vh;
+}
+.listEl-text {
+  width: 75%;
+}
+.line {
+  border: 1px solid black;
+}
+
+.btn {
+  padding: 3vh;
+  margin-left: 10px;
+  text-shadow: 1px 2px 2px black;
+  border-radius: 1vh;
+}
+.listEl-btns {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+.positive {
+  background: #5beb5b;
+  border: 1px solid #a1e6a1;
+  box-shadow: 0 3px 1px #a1e6a1;
+}
+.active {
+  text-decoration-line: line-through;
+}
+
+.negative {
+  background: #ec2d2d;
+  border: 1px solid #dd4444;
+  box-shadow: 0 3px 1px #dd4444;
+}

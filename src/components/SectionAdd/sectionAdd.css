@@ -1,0 +1,21 @@
+.formAdd {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh;
+  background: #e5e7cd;
+  border: 1px solid black;
+  margin-bottom: 1vh;
+}
+
+.btn_add {
+  box-shadow: 0 3px 2px #bfcfcb;
+  border: 1px solid #bfcfcb;
+  border-radius: 1vh;
+}
+
+.inputText {
+  width: 80%;
+  padding: 1vh 0 1vh 1vh;
+  font-size: 1rem;
+  border: 1px solid #000000;
+}
