@@ -13,6 +13,10 @@
 .listEl-text {
   width: 75%;
 }
+.listEl-text.active {
+  text-decoration-line: line-through;
+}
+
 .line {
   border: 1px solid black;
 }
@@ -33,9 +37,6 @@
   background: #5beb5b;
   border: 1px solid #a1e6a1;
   box-shadow: 0 3px 1px #a1e6a1;
-}
-.active {
-  text-decoration-line: line-through;
 }
 
 .negative {

@@ -2,27 +2,17 @@
   "tasks": [
     {
       "id": "0",
-      "text": "ыввыыв",
+      "text": "Однажды маленький мальчик по имени Коля решил научиться кататься на велосипеде. Он очень хотел научиться кататься, потому что все его друзья уже умели кататься на велосипедах, а он нет.",
       "check": false
     },
     {
       "id": "1",
-      "text": "ааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа",
+      "text": "Коля начал учиться кататься на своем старом велосипеде, который ему подарили на день рождения. Он каждый день выходил на улицу и катался на своем велосипеде. Сначала ему было очень трудно держать равновесие и управлять велосипедом, но со временем он стал кататься все лучше и лучше.",
       "check": false
     },
     {
       "id": "2",
-      "text": "dsds",
-      "check": false
-    },
-    {
-      "id": "3",
-      "text": "dsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-      "check": false
-    },
-    {
-      "id": "4",
-      "text": "dsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "text": "Через несколько недель Коля уже мог кататься на своем велосипеде без проблем. Он был очень рад, что научился кататься на велосипеде и теперь мог кататься вместе со своими друзьями.",
       "check": false
     }
   ]

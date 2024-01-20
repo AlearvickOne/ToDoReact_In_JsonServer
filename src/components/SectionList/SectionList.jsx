@@ -3,8 +3,8 @@ import { patchJson, deleteJson } from "../axiosReq";
 
 export default function SectionList({ children, check, index, funcSet }) {
   return (
-    <li className={`listEl ${check ? "active" : ""}`}>
-      <span className="listEl-text">{children}</span>
+    <li className="listEl">
+      <span className={`listEl-text ${check ? "active" : ""}`}>{children}</span>
       <span className="line"></span>
       <span>
         <span className="listEl-btns">
