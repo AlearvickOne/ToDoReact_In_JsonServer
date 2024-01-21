@@ -23,24 +23,32 @@
 
 .btn {
   padding: 3vh;
-  margin-left: 10px;
+  margin: 10px 10px 0 0;
   text-shadow: 1px 2px 2px black;
   border-radius: 1vh;
 }
 .listEl-btns {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 60px 60px;
+  grid-template-rows: 60px 60px;
 }
 
 .positive {
   background: #5beb5b;
-  border: 1px solid #a1e6a1;
-  box-shadow: 0 3px 1px #a1e6a1;
+  border: 1px solid #5b8b5b;
+  box-shadow: 0 3px 1px #5b8b5b;
 }
 
 .negative {
   background: #ec2d2d;
-  border: 1px solid #dd4444;
-  box-shadow: 0 3px 1px #dd4444;
+  border: 1px solid #af4545;
+  box-shadow: 0 3px 1px #af4545;
+}
+
+.edit {
+  background: #a5dfd0;
+  border: 1px solid #98b6b8;
+  box-shadow: 0 3px 1px #98b6b8;
+  text-shadow: none;
+  grid-column: span 2;
 }

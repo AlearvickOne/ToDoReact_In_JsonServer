@@ -50,9 +50,9 @@ async function postJson(value, onChangeValue, funcSet) {
 }
 
 // Изменение данных на сервере и синхронизация бэка с фронтом
-async function patchJson(index, check, funcSet) {
+async function patchJson(params = {}, index, funcSet) {
   return await axios
-    .patch(`${link}/${index}`, { check: !check })
+    .patch(`${link}/${index}`, params)
     .then(() => console.log("Данные отправлены"))
     .catch((err) => {
       console.warn(err);
