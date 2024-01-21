@@ -19,11 +19,12 @@
 
 .line {
   border: 1px solid black;
+  margin: 0 1vh 0 1vh;
 }
 
 .btn {
   padding: 3vh;
-  margin: 10px 10px 0 0;
+
   text-shadow: 1px 2px 2px black;
   border-radius: 1vh;
 }
@@ -31,6 +32,7 @@
   display: grid;
   grid-template-columns: 60px 60px;
   grid-template-rows: 60px 60px;
+  gap: 10px;
 }
 
 .positive {
@@ -50,5 +52,6 @@
   border: 1px solid #98b6b8;
   box-shadow: 0 3px 1px #98b6b8;
   text-shadow: none;
+  padding: 1px;
   grid-column: span 2;
 }
