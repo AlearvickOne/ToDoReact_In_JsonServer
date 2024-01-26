@@ -3,14 +3,16 @@ import "./sectionAdd.css";
 
 /* 
 // Код на сервер json для нумерации id
-// let num = 0;
+function randomId(items) {
+  let num = 0;
 
-//   if (items === undefined) return num;
+  if (items === undefined) return num;
 
-//   items.forEach((el, index) =>
-//     +el.id !== index + 1 ? (num = index + 1) : num
-//   );
-//   return num.toString();
+  items.forEach((el, index) =>
+    +el.id !== index + 1 ? (num = index + 1) : num
+  );
+  return num.toString();
+}
 */
 
 
